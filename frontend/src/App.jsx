@@ -16,7 +16,7 @@ function App() {
     setLoading(true);
     setError(null);
 
-    return fetch('/api/students', {
+    return fetch('https://codexdemo.onrender.com/api/students', {
       headers: {
         Authorization: createAuthHeader(authCredentials),
       },
